@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+
+body {
+  @apply bg-slate-800;
+}
+
+.field:first-child {
+  @apply rounded-tl-md;
+}
+
+.field:nth-child(8) {
+  @apply rounded-tr-md;
+}
+
+.field:nth-child(57) {
+  @apply rounded-bl-md;
+}
+
+.field:nth-child(64) {
+  @apply rounded-br-md;
+}
